@@ -12,9 +12,19 @@ void test_parse() {
     std::cout << lastName << " ------ " << firstName << std::endl;
 }
 
+void test_user() {
+    std::string email = "johndoe123@uconn.edu";
+    std::string user = "";
+
+    user = StringUtils::getUsername(email);
+    std::cout << user << std::endl;
+
+}
+
 int main() {
 
     test_parse();
+    test_user();
     return 0;
 
 }

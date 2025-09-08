@@ -16,8 +16,9 @@ namespace StringUtils{
     }
 
     std::string getUsername(const std::string& email){
-
-        return "default";
+        size_t at_pos = email.find("@");
+        string user_name = email.substr(0, at_pos);
+        return user_name;
 
     }
 
