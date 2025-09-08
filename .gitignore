@@ -1,2 +1,4 @@
 program
 *.o
+.vscode
+test.py
