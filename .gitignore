@@ -2,3 +2,6 @@ program
 *.o
 .vscode
 test.py
+__pycache__
+._test.py
+parser_app
